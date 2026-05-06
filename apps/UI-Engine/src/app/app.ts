@@ -5,12 +5,11 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   imports: [RouterOutlet],
   template: `
-    <h1>Hello, {{ title() }}</h1>
+    <h1 flex self-center>AI Agent Robin: Dynamic UI Engine (POC)</h1>
 
     <router-outlet />
   `,
   styles: [],
 })
 export class App {
-  protected readonly title = signal('UI-Engine');
 }
